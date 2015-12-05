@@ -5,7 +5,7 @@
 学习途径：学习廖雪峰的Git教程
 
 学习步骤：
-		  1.配置全局user.name和useremail
+		  1.配置全局user.name和useremail<br>
 		  		$git config --global user.name ""
 		  		$git config --global user.email ""
 		  2.初始化Git仓库，使用git init命令
@@ -33,5 +33,5 @@
 		  8.$ ssh-keygen -t rsa -C "youremail@example.com"
 		  	把id-rsa.pub（C盘用户administrative/ssh文件夹）的内容复制到网站添加ssh的位置
 		  	$git remote add origin 添加远程库
-		  	
+
 
