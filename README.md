@@ -6,7 +6,7 @@
 
 学习步骤：
 
-		  1.配置全局user.name和useremail<br>
+		  1.配置全局user.name和useremail
 		  		$git config --global user.name ""
 		  		$git config --global user.email ""
 		  2.初始化Git仓库，使用git init命令
@@ -34,5 +34,17 @@
 		  8.$ ssh-keygen -t rsa -C "youremail@example.com"
 		  	把id-rsa.pub（C盘用户administrative/ssh文件夹）的内容复制到网站添加ssh的位置
 		  	$git remote add origin 添加远程库
+		  	$git push -u origin master 
+		  	$git push origin master
+		  	$git clone
+		  9.创建并切换到dev分支：$git checkout -b dev
+		  	创建分支不切换:$git branch 分支
+		  	切换分支：$git checkout 分支名
+		  	查看分支：$git branch    （带*的表示当前分支）
+		  	合并指定分支到当前分支 $git merge 分支名
+		  	删除分支：$git branch -d 分支名
+
+
+
 
 
