@@ -1,0 +1,14 @@
+$git config --global user.name ""
+$git config --global user.email ""
+$git init
+$git add
+$git commit -m
+$git status
+$git diff
+$git log
+$git log --pretty=oneline
+$git reset --hard
+$git reflog
+$git diff HEAD --
+$git checkout --
+$git reset HEAD
